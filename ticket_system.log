@@ -1,0 +1,386 @@
+User dhruvsh1997 attempting to create ticket: Reset Password
+Error creating ticket for user dhruvsh1997: Customer matching query does not exist.
+G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\views.py changed, reloading.
+Watching for file changes with StatReloader
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6805
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6805
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully
+G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\views.py changed, reloading.
+Watching for file changes with StatReloader
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6805
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6805
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully
+User dhruvsh1997 attempting to create ticket: Reset Password
+Error creating ticket for user dhruvsh1997: Customer matching query does not exist.
+G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\views.py changed, reloading.
+Watching for file changes with StatReloader
+G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\views.py changed, reloading.
+Watching for file changes with StatReloader
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6805
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6805
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully
+User dhruvsh1997 attempting to create ticket: Reset Password
+G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\views.py changed, reloading.
+Watching for file changes with StatReloader
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6805
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6805
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully
+G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\views.py changed, reloading.
+Watching for file changes with StatReloader
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6805
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6805
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully
+Not Found: /favicon.ico
+User dhruvsh1997 attempting to create ticket: Reset Password
+Classifying ticket text: Instruction for Reset Password...
+Ticket classified with category ID: 3
+G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\utils.py changed, reloading.
+Watching for file changes with StatReloader
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6805
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6805
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully
+G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\utils.py changed, reloading.
+Watching for file changes with StatReloader
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6805
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6805
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully
+Unauthenticated access attempt to create ticket by 127.0.0.1
+Login attempt for username: dhruvsh1997
+User dhruvsh1997 logged in successfully
+User dhruvsh1997 accessed dashboard
+Cache miss for open_tickets_1, querying database
+Cached 0 open tickets for user 1
+User dhruvsh1997 attempting to create ticket: Reset Password
+Internal Server Error: /create-ticket/
+Traceback (most recent call last):
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "auth_user_username_key"
+DETAIL:  Key (username)=(dhruvsh1997@gmail.com) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\views.py", line 87, in create_ticket
+    user = User.objects.create_user(username=request.user.email, email=request.user.username, password=request.user.password)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\contrib\auth\models.py", line 175, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\contrib\auth\models.py", line 163, in _create_user
+    user.save(using=self._db)
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\contrib\auth\base_user.py", line 65, in save
+    super().save(*args, **kwargs)
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "auth_user_username_key"
+DETAIL:  Key (username)=(dhruvsh1997@gmail.com) already exists.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\envTicketIndexing\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\views.py", line 104, in create_ticket
+    logger.error(f"Error creating ticket for user {request.user.username}: {str(e)}")
+    ^^^^^^
+  File "G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticket_system\views.py", line 104, in create_ticket
+    logger.error(f"Error creating ticket for user {request.user.username}: {str(e)}")
+    ^^^^^^
+  File "C:\Users\Dhruv Sharma\AppData\Local\Programs\Python\Python311\Lib\bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dhruv Sharma\AppData\Local\Programs\Python\Python311\Lib\bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticketing_indexing_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6796
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6796
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6796
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6796
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully
+Watching for file changes with StatReloader
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6796
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6796
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully
+Unauthenticated access attempt to dashboard by 127.0.0.1
+Login attempt for username: dhruvsh1997
+Failed login attempt for username: dhruvsh1997
+Registration attempt for username: dhruvsh1997, email: dhruvsh1997@gmail.com
+User dhruvsh1997 registered and logged in successfully
+User dhruvsh1997 accessed dashboard
+Cache miss for open_tickets_1, querying database
+Cached 0 open tickets for user 1
+User dhruvsh1997 attempting to create ticket: Reset Password
+Error creating ticket for user dhruvsh1997: UNIQUE constraint failed: ticket_system_customer.email
+G:\Work\Chetu W2.1 TicketSystem-Indexing\ticketing_indexing_project\ticketing_indexing_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Initializing ML models
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://huggingface.co:443 "GET /api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6796
+https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6796
+https://huggingface.co:443 "HEAD /distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0f/config.json HTTP/1.1" 200 0
+https://huggingface.co:443 "GET /api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0f/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 67
+ML models initialized successfully

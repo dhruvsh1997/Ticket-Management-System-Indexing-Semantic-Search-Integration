@@ -1,0 +1,11 @@
+Django
+psycopg
+psycopg2-binary
+django-redis
+redis
+transformers
+sentence-transformers
+torch
+
+#"C:\Program Files\PostgreSQL\16\bin\psql.exe" -U postgres
+#CREATE EXTENSION IF NOT EXISTS pg_trgm;
